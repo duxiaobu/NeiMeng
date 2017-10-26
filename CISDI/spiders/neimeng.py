@@ -2,6 +2,7 @@
 from scrapy import Spider, Request
 from urllib import parse
 from CISDI.items import CisdiItem
+from scrapy.loader import ItemLoader
 
 
 class NeimengSpider(Spider):
